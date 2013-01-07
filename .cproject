@@ -50,20 +50,6 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.322792714.441537878" name="/" resourcePath="tex">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1919767936" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug" unusedChildren="">
-							<tool id="cdt.managedbuild.tool.gnu.archiver.base.202982697" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base.1492453527"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.806262087" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.364123687"/>
-							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1489574804" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1799022218">
-								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1189915274" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
-							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.31001790" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1543083931"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1677563721" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1177170972"/>
-							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.349092162" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug.1383603981">
-								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.899061398" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
-							</tool>
-						</toolChain>
-					</folderInfo>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
@@ -116,15 +102,6 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="GlutTest.cdt.managedbuild.target.gnu.exe.1496633906" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.454261600;cdt.managedbuild.config.gnu.exe.release.454261600.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1407669715;cdt.managedbuild.tool.gnu.c.compiler.input.633276268">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.322792714;cdt.managedbuild.config.gnu.exe.debug.322792714.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1799022218;cdt.managedbuild.tool.gnu.c.compiler.input.328258657">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Release">
@@ -135,4 +112,13 @@
 		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.322792714;cdt.managedbuild.config.gnu.exe.debug.322792714.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1799022218;cdt.managedbuild.tool.gnu.c.compiler.input.328258657">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.454261600;cdt.managedbuild.config.gnu.exe.release.454261600.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1407669715;cdt.managedbuild.tool.gnu.c.compiler.input.633276268">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
 </cproject>

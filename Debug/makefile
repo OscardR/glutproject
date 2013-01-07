@@ -22,19 +22,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: GlutProject
+all: glutproject
 
 # Tool invocations
-GlutProject: $(OBJS) $(USER_OBJS)
+glutproject: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L/usr/lib/x86_64-linux-gnu -o "GlutProject" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L/usr/lib/x86_64-linux-gnu -o "glutproject" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) GlutProject
+	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) glutproject
 	-@echo ' '
 
 .PHONY: all clean dependents
