@@ -7,6 +7,8 @@
 #define DENTRO 1
 #define FUERA 0
 
+#define GL_SILENCE_DEPRECATION 1
+
 // estructura que envuelve datos de objetos que rotan
 typedef struct {
 	float phi; // ángulo de posición en sección
