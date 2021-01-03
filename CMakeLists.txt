@@ -4,8 +4,6 @@ project(glutproject C)
 
 set(CMAKE_C_STANDARD 99)
 
-include_directories(.)
-
 add_executable(glutproject
         luces.c
         luces.h
@@ -23,6 +21,9 @@ add_executable(glutproject
 
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
-include_directories( ${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS} )
+
+file(COPY tex DESTINATION "${CMAKE_BINARY_DIR}")
+
+include_directories(. ${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS} )
 
 target_link_libraries(glutproject ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} )
