@@ -38,7 +38,6 @@
 
 #include "matematicas.h"
 #include "luces.h"
-#include "material.h"
 #include "texturas.h"
 #include "modelado.h"
 #include "revolucion.h"

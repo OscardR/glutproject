@@ -15,8 +15,6 @@ typedef struct _textura {
 	GLuint data[MAX_W * MAX_H * 3];
 } Textura;
 
-Textura * texturas;
-
 GLuint dameTextura(int n);
 bool leeTextura(char *fichero, int num);
 bool cargaTextura(char *fichero, int num);

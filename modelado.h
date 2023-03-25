@@ -3,7 +3,7 @@
 
 #define	M	50
 
-GLuint numTextura;
+extern GLuint numTextura;
 
 // Helpers
 float dameX(float R, int N, int n);

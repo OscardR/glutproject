@@ -14,6 +14,8 @@
 #include "texturas.h"
 #include "modelado.h"
 
+GLuint numTextura;
+
 /**
  * Devuelve el punto 3D asociado a unos determinados datos.
  * R1: radio del primer anillo.

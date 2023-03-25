@@ -11,6 +11,8 @@
 
 #include "texturas.h"
 
+Textura * texturas;
+
 /**
  * Lee una imagen de textura en formato tga
  * Parametros --> char *fichero : Cadena de caracteres con el nombre
